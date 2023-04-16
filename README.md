@@ -1,1 +1,1 @@
-# hotel-starter
+# private-chalet

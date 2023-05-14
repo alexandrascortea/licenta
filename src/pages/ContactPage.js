@@ -6,12 +6,6 @@ const ContactPage = () => {
       <div className="container mx-auto mt-10">
         <h1 className="font-primary text-4xl md:text-6xl lg:text-7xl font-bold mb-5 text-center">Contact Us</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
-          <div className="mb-8 md:mb-0 lg:mb-0">
-            <h2 className='font-primary text-2xl md:text-3xl lg:text-4xl mb-4'>Private Chalet Information</h2>
-            <p className='font-primary text-xl md:text-2xl lg:text-3xl mb-4'>Address: Strada Bisercii 195, Moieciu de jos, Brasov, Romania</p>
-            <p className='font-primary text-xl md:text-2xl lg:text-3xl mb-4'>Phone: 0745327654</p>
-            <p className='font-primary text-xl md:text-2xl lg:text-3xl mb-4'>Email: privatechaletro@gmail.com</p>
-          </div>
           <div>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-3">Contact Form</h2>
             <form>
@@ -29,6 +23,12 @@ const ContactPage = () => {
               </div>
               <button type="submit" className="bg-accent hover:bg-accent-hover text-white font-semibold rounded-lg px-6 py-2">Submit</button>
             </form>
+          </div>
+          <div className="mb-8 md:mb-0 lg:mb-0">
+            <h2 className='font-primary text-2xl md:text-3xl lg:text-4xl mb-4'>Private Chalet Information</h2>
+            <p className='font-primary text-xl md:text-2xl lg:text-3xl mb-4'>Address: Strada Bisercii 195, Moieciu de jos, Brasov, Romania</p>
+            <p className='font-primary text-xl md:text-2xl lg:text-3xl mb-4'>Phone: 0745327654</p>
+            <p className='font-primary text-xl md:text-2xl lg:text-3xl mb-4'>Email: privatechaletro@gmail.com</p>
           </div>
         </div>
       </div>

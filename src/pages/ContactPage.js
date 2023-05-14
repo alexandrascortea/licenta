@@ -25,7 +25,7 @@ const ContactPage = () => {
             </form>
           </div>
           <div className="mb-8 md:mb-0 lg:mb-0">
-            <h2 className='font-primary text-2xl md:text-3xl lg:text-4xl mb-4'>Private Chalet Information</h2>
+          <h2 className='font-primary text-2xl md:text-3xl lg:text-4xl mb-4 font-bold'>Private Chalet Information</h2>
             <p className='font-primary text-xl md:text-2xl lg:text-3xl mb-4'>Address: Strada Bisercii 195, Moieciu de jos, Brasov, Romania</p>
             <p className='font-primary text-xl md:text-2xl lg:text-3xl mb-4'>Phone: 0745327654</p>
             <p className='font-primary text-xl md:text-2xl lg:text-3xl mb-4'>Email: privatechaletro@gmail.com</p>

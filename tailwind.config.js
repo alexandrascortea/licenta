@@ -28,6 +28,7 @@ module.exports = {
       backgroundImage: {
         room: "url('./assets/img/room.jpg')",
         house: "url('./assets/img/house.jpg')",
+        mountains: "url('./assets/img/mountain.jpg')",
       },
     },
   },

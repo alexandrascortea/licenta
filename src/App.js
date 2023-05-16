@@ -7,6 +7,8 @@ import Room from './pages/RoomDetails'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import RoomDetails from './pages/RoomDetails';
 import ContactPage from './pages/ContactPage';
+import WhyUs from './pages/WhyUs';
+import ActivitiesPage from './pages/ActivitiesPage';
 
 const router = createBrowserRouter([
   {
@@ -20,8 +22,14 @@ const router = createBrowserRouter([
   {
     path:'/contact',
     element: <ContactPage/>
-  }
-  
+  }, 
+  {path:'/why-us',
+  element: <WhyUs/>
+  },
+  {
+    path:'/activities',
+    element: <ActivitiesPage/>
+  },
 ])
 
 const App = () => {

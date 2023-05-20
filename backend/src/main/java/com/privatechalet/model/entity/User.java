@@ -1,4 +1,4 @@
-package com.privatechalet.model;
+package com.privatechalet.model.entity;
 
 import javax.persistence.*;
 

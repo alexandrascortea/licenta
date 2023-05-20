@@ -1,6 +1,6 @@
 package com.privatechalet.repository;
 
-import com.privatechalet.model.User;
+import com.privatechalet.model.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

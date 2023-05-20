@@ -20,7 +20,7 @@ const ContactPage = () => {
     e.preventDefault();
     
     // Send the form data to the server using fetch or axios
-    fetch('http://localhost:8073/contact', {
+    fetch('http://localhost:8074/contact', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

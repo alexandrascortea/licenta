@@ -1,12 +1,12 @@
 // rooms images
 import Room1Img from './assets/img/rooms/poza1.jpeg';
-import Room1ImgLg from './assets/img/rooms/poza1-lg.png';
+import Room1ImgLg from './assets/img/rooms/p1-lg.jpg';
 import Room2Img from './assets/img/rooms/poza4.jpg';
-import Room2ImgLg from './assets/img/rooms/2-lg.png';
+import Room2ImgLg from './assets/img/rooms/p2-lg.jpg';
 import Room3Img from './assets/img/rooms/poza3.jpg';
-import Room3ImgLg from './assets/img/rooms/3-lg.png';
-import Room4Img from './assets/img/rooms/poza2.jpg';
-import Room4ImgLg from './assets/img/rooms/4-lg.png';
+import Room3ImgLg from './assets/img/rooms/3-lg.jpg';
+import Room4Img from './assets/img/rooms/poza3.jpg';
+import Room4ImgLg from './assets/img/rooms/4-lg.JPG';
 
 // import icons
 import {
@@ -22,7 +22,7 @@ export const roomData = [
     id: 1,
     name: 'Superior Room',
     description:
-      'A superior room is a higher category room than a standard room, offering more space and upgraded amenities. It typically includes a king or queen-size bed with premium bedding, a larger bathroom with deluxe toiletries, and additional seating area with a comfortable chair or sofa. ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
+      'A superior room is a higher category room than a standard room, offering more space and upgraded amenities. It typically includes a king or queen-size bed with premium bedding, a larger bathroom with deluxe toiletries, and additional seating area with a comfortable chair or sofa.',
     facilities: [
       { name: 'Wifi', icon: <FaWifi /> },
       { name: 'Coffee', icon: <FaCoffee /> },
@@ -39,7 +39,7 @@ export const roomData = [
     id: 2,
     name: 'Signature Room',
     description:
-    'A superior room is a higher category room than a standard room, offering more space and upgraded amenities. It typically includes a king or queen-size bed with premium bedding, a larger bathroom with deluxe toiletries, and additional seating area with a comfortable chair or sofa. ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
+    'Indulge in the epitome of luxury and sophistication with our exquisite Signature Rooms, ideally located near the iconic Castel Bran and surrounded by the awe-inspiring beauty of the mountains. As you step into our exclusive Signature Rooms, prepare to be immersed in a world of opulence and refinement.',
     facilities: [
       { name: 'Wifi', icon: <FaWifi /> },
       { name: 'Coffee', icon: <FaCoffee /> },
@@ -57,7 +57,7 @@ export const roomData = [
     id: 3,
     name: 'Deluxe Room',
     description:
-    'A superior room is a higher category room than a standard room, offering more space and upgraded amenities. It typically includes a king or queen-size bed with premium bedding, a larger bathroom with deluxe toiletries, and additional seating area with a comfortable chair or sofa. ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
+    'Welcome to our Deluxe Rooms, perfectly situated near the enchanting Castel Bran and surrounded by the majestic beauty of the mountains. Prepare to immerse yourself in a world of comfort and sophistication as you step into our well-appointed Deluxe Rooms.',
     facilities: [
       { name: 'Wifi', icon: <FaWifi /> },
       { name: 'Coffee', icon: <FaCoffee /> },
@@ -75,7 +75,7 @@ export const roomData = [
     id: 4,
     name: 'Luxury Room',
     description:
-    'A superior room is a higher category room than a standard room, offering more space and upgraded amenities. It typically includes a king or queen-size bed with premium bedding, a larger bathroom with deluxe toiletries, and additional seating area with a comfortable chair or sofa. ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
+    'Welcome to our lavish Luxury Rooms, ideally located near the captivating Castel Bran and nestled amidst the awe-inspiring beauty of the surrounding mountains. Prepare to be swept away by the opulence and grandeur that awaits you in our distinguished Luxury Rooms.',
     facilities: [
       { name: 'Wifi', icon: <FaWifi /> },
       { name: 'Coffee', icon: <FaCoffee /> },
@@ -85,7 +85,7 @@ export const roomData = [
     ],
    // size: 60,
     maxPerson: 2,
-    price: 289,
+    price: 60,
     image: Room4Img,
     imageLg: Room4ImgLg,
   },

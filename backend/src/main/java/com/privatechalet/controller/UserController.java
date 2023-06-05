@@ -13,11 +13,8 @@ import java.util.NoSuchElementException;
 
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3001")
+@CrossOrigin(origins = "http://localhost:3000")
 public class UserController {
-
-    @Autowired
-    private UserRepository userRepository;
 
     @Autowired
     private ContactUsRepository contactUsRepository;

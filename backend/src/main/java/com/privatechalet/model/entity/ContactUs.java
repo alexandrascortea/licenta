@@ -18,13 +18,13 @@ public class ContactUs {
     private String email;
 
     @Column
-    private String description;
+    private String message;
 
-    public ContactUs(int id, String name, String email, String description) {
+    public ContactUs(int id, String name, String email, String message) {
         this.id = id;
         this.name = name;
         this.email = email;
-        this.description = description;
+        this.message = message;
     }
 
     public ContactUs() {
@@ -43,8 +43,8 @@ public class ContactUs {
         return email;
     }
 
-    public String getDescription() {
-        return description;
+    public String getMessage() {
+        return message;
     }
 
     public void setId(int id) {
@@ -59,8 +59,8 @@ public class ContactUs {
         this.email = email;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setMessage(String message) {
+        this.message = message;
     }
 
 }

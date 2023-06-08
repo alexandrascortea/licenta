@@ -83,7 +83,6 @@ const RoomDetails = () => {
             {/* facilities */}
             <div>
               <h3 className="h3 mb-3">Room Facilities</h3>
-              <p className="mb-12">Ceva</p>
               {/* grid */}
               <div className="grid grid-cols-3 gap-6 mb-12">
                 {facilities.map((item, index) => {
